@@ -29,6 +29,17 @@ Node* convert(vector<int>&arr)
     }
     return head;
 }
+int count(Node* head)
+{
+    Node* temp=head;
+    int cnt=0;
+    while(temp)
+    {
+        temp=temp->next;
+        cnt++;
+    }
+    return cnt;
+}
 int main()
 {
     vector<int>arr={12,5,8,7};
@@ -39,4 +50,5 @@ int main()
         cout<<temp->data<<" ";
         temp=temp->next;
     }
+    cout<<count(head);
 }
