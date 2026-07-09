@@ -52,3 +52,14 @@ int main()
     }
     cout<<count(head);
 }
+/* for checking just make a 
+int check(Node* head,int val)
+{
+   Node* temp=head;
+    while(temp)
+    {
+        if(temp->data==val)
+        return 1;
+    }
+    return 0; 
+}*/
