@@ -61,7 +61,7 @@ int main()
     Node* head1=convert(v1);
     Node* head2=convert(v2);
     Node* temp1;
-    Node* temp2;
+    Node*  temp2;
     temp1=head1;
     temp2=head2;
     Node* dummyhead=new Node(-1);

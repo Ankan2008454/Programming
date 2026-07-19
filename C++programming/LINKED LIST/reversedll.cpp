@@ -71,3 +71,12 @@ int main()
     }
     print(head);
 }
+/*
+
+you can use an optimal soln of swapping nodes like 
+
+int temp=current->back;
+current->back=current->next;
+current->next=emp;
+
+*/
