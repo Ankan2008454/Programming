@@ -1,0 +1,20 @@
+<!--DOCUMENT OBJECT MODEL-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <body>
+           <button>Hello</button>
+        <script>
+            /*document.body.innerHTML='hello';
+            document.title='Good job!';
+            console.log(document.title);
+            document.title='changed';
+            console.log(document.body);
+            document.body.innerHTML='<button>Good Job!</button>'*/
+            console.log(document.querySelector('button').innerHTML);
+            document.querySelector('button').innerHTML='Changed';
+        </script>
+    </body>
+</html>
