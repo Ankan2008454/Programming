@@ -1,9 +1,9 @@
 class Cart
 {
-    cartItems=undefined;
+    cartItems=undefined;//use # to make fun or variables private
     constructor()
     {
-
+        
     }
      localStorage() {
         this.cartItems = JSON.parse(localStorage.getItem('cart-oop'));
