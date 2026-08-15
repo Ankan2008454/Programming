@@ -18,11 +18,11 @@ loginButton.addEventListener('click', () => {
     if (user) {
         setTimeout(() => {
             message.innerHTML = `Welcome, ${user}!`;
-        }, 500);
+        }, 900);
 
         setTimeout(() => {
             message.innerHTML = '';
-        }, 700);
+        }, 2000);
 
         setTimeout(() => {
             window.location.href = 'whatsapp.html';
