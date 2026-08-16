@@ -1,10 +1,11 @@
 import { renderOrderSummary } from './checkout/order-summary.js';
 import {renderPaymentSummary} from './checkout/payment-summary.js';
-import {loadProducts} from '../data/products.js';
+import {loadProducts,loadProductsFetch} from '../data/products.js';
 import {loadCart} from '../data/cart.js';
 //import '../data/cart-oop.js';
 //import '../data/backend-practice.js';
 Promise.all([
+    loadProductsFetch(),
     new Promise((resolve)=>{
     console.log('start');
     loadProducts(()=>{
