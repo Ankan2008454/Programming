@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        
+        .status-main
+        {
+            width:100%;
+            height:1000px;
+            display:flex;
+            
+        }
+        .status-page
+        {
+            width:36%;
+            height:1000px;
+            background-color:rgb(174, 61, 61);
+        }
+        .status-right
+        {
+            width:60%;
+            height:1000px;
+            background-color:rgb(88, 15, 79);
+           
+        }
+        .sidebar
+        {
+            width:2.5%;
+            height:1000px;
+
+        }
+        .sidebar
+        {
+            position:fixed;
+            bottom:0;
+            top:0;
+            left:0;
+            background-color:#f0f2f5;
+            z-index:400;
+            user-select: none;
+        }
+        .sidebar-icon
+        {
+            margin-bottom:10px;
+            margin-top:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width: 35px;
+            height: 32px;
+            flex-direction:column;
+        }
+
+        .sidebar-icon img 
+        {
+            width: 18px;
+            height: 18px;
+        }
+        .sidebar-icon:hover
+        {
+            background-color:#e9edef;
+            border-radius:100px;
+            cursor:pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="status-main">
+            <div class="status-page"></div>
+            <div class="status-right"></div>
+            <div class="sidebar">
+            <div class="sidebar">
+            <div class="sidebar-icon">
+                <img src="icons/chat.svg">
+            </div>
+
+            <div class="sidebar-icon">
+                <img src="icons/call.svg">
+            </div>
+
+            <div class="sidebar-icon">
+                <img src="icons/status.svg">
+            </div>
+
+            <div class="sidebar-icon">
+                <img src="icons/community.svg">
+            </div>
+            <div class="sidebar-icon">
+                <img src="icons/metaAI.png">
+            </div>
+        </div>
+    </div>
+        </div>
+         
+    </body>
+</html>
