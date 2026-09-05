@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
     int m,n;
-    cinn>>m>>n;
-    int adj[n+1][m+1];
+    cin>>m>>n;
+    vector<int> adj[n+1];
     for(int i=0;i<m;i++)
     {
         int u,v;
