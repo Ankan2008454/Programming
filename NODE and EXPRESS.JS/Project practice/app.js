@@ -19,7 +19,7 @@ app.post('/api/book', (req, res) => {
 
     const mailOptions = {
         from: process.env.EMAIL_USER,
-        to: 'adpdbgang@gmail.com',
+        to: ['admin2008454@gmail.com','gcps710@gmail.com'],
         subject: 'New Service Booking',
         text: 'Someone has requested a service'
     };
